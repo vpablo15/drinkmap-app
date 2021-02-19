@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardViewDrink"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e0e0e0">
+
+        <ImageView
+            android:id="@+id/imgDrink"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/textViewNameDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="16dp"
+            tools:text="hola mundo"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
